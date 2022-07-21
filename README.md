@@ -2,7 +2,7 @@
 💻 Learning Developer
 
 
-🔭 I’m currently working on myself, i'm a learning developer;
+🔭 I’m currently working on myself;
 
 💬 Ask me about anything you like to know;
 
