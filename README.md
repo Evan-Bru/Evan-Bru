@@ -6,10 +6,10 @@
 
 💬 Ask me about anything you like to know;
 
-<div>
+<div align="center">
 <a href="https://github.com/Evan-Bru">
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Evan-Bru&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=false" width="400"/>    
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Evan-Bru&layout=compact&langs_count=50&theme=tokyonight" width="400"/>
+<img height="180em" width="400" src="https://github-readme-stats.vercel.app/api?username=Evan-Bru&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=false" />    
+<img height="180em" width="400" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Evan-Bru&layout=compact&langs_count=7&theme=tokyonight" />
 </div>
 
 
