@@ -1,5 +1,5 @@
 ## Hello, i'm Bruno, but you can call me Evan.
-💻 Learning Developer
+💻 Developer
 
 
 🔭 I’m currently working on myself;
