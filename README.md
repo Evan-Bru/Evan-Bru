@@ -20,7 +20,7 @@
 
 <a href="https://www.instagram.com/evan_bru/" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
 <a href="https://www.twitch.tv/evan_bru" target="_blank"><img src="https://img.shields.io/badge/Twitch-9146FF?style=for-the-badge&logo=twitch&logoColor=white" target="_blank"></a>
-<a href="[https://www.twitch.tv/evan_bru](https://www.linkedin.com/in/bruno-manoel-evan/)" target="_blank"><img height="28em" width="98" src="https://content.linkedin.com/content/dam/brand/site/img/logo/logo-hero.png" target="_blank"></a>
+<a href="[https://www.twitch.tv/evan_bru](https://www.linkedin.com/in/bruno-manoel-evan/)" target="_blank"><img height="28em" width="110" src="https://content.linkedin.com/content/dam/brand/site/img/logo/logo-hero.png" target="_blank"></a>
 
 
 
