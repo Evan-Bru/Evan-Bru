@@ -6,11 +6,6 @@
 
 💬 Ask me about anything you like to know;
 
-<div>
-<a href="https://github.com/Evan-Bru">
-<img height="180em" width="350" src="https://github-readme-stats.vercel.app/api?username=Evan-Bru&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true" />    
-<img height="180em" width="320" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Evan-Bru&layout=compact&langs_count=700&theme=tokyonight" />
-</div>
 
 
 
