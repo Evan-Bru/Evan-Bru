@@ -18,7 +18,7 @@ jobs:
       - name: Generate Stats Card
         uses: readme-tools/github-readme-stats-action@v1
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GH_TOKEN }}
           card: stats
           path: ./github-readme-stats.svg
           options: 'show_icons=true&theme=transparent'
