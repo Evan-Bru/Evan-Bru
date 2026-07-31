@@ -24,7 +24,6 @@
 
 
 
-
 ![GitHub Snake Game](https://raw.githubusercontent.com/Evan-Bru/Evan-Bru/output/github-contribution-grid-snake-dark.svg)
 
 
