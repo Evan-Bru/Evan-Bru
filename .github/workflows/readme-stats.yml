@@ -17,8 +17,10 @@ jobs:
 
       - name: Baixar Imagens de Status
         run: |
+          PARTE1="https://github-readme-stats"
+          PARTE2=".vercel.app/api"
           curl -o github-readme-stats.svg "https://vercel.app"
-          curl -o github-readme-top-langs.svg "https://vercel.app"
+          curl -o github-readme-top-langs.svg "${PARTE1}${PARTE2}/top-langs?username=Evan-Bru&layout=compact"
 
       - name: Salvar no Repositorio
         run: |
