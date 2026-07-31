@@ -18,6 +18,7 @@
 <a href="[https://www.twitch.tv/evan_bru](https://www.linkedin.com/in/bruno-manoel-evan/)" target="_blank"><img height="28em" width="110" src="https://content.linkedin.com/content/dam/brand/site/img/logo/logo-hero.png" target="_blank"></a>
 
 
+![GitHub Snake Game](https://raw.githubusercontent.com/Evan-Bru/Evan-Bru/output/github-contribution-grid-snake.svg)
 
 
 
