@@ -24,6 +24,6 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@://github.com"
-          git add github-readme-stats.svg github-readme-top-langs.svg
+          git add github-readme-stats.svg
           git commit -m "Update Stats" || echo "Sem mudancas"
           git push origin main
