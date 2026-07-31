@@ -18,8 +18,7 @@ jobs:
       - name: Baixar Imagens de Status
         run: |
           curl -o github-readme-stats.svg "https://vercel.app"
-          curl -o github-readme-top-langs.svg "https://github-readme-stats.vercel.app/api/top-langs?username=Evan-Bru&layout=compact"
-
+          
       - name: Salvar no Repositorio
         run: |
           git config --global user.name "github-actions[bot]"
