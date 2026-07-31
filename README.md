@@ -19,6 +19,7 @@
 
 ![Minhas Estatísticas](./github-readme-stats.svg)
 
+![Minhas Linguagens](./github-readme-top-langs.svg)
 
 
 ![GitHub Snake Game](https://raw.githubusercontent.com/Evan-Bru/Evan-Bru/output/github-contribution-grid-snake-dark.svg)
