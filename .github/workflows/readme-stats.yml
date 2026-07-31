@@ -1,0 +1,32 @@
+name: GitHub Readme Stats
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # Atualiza todo dia à meia-noite
+  workflow_dispatch: # Permite rodar manualmente
+
+permissions:
+  contents: write
+
+jobs:
+  stats:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v4
+
+      - name: Generate Stats Card
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          card: stats
+          path: ./github-readme-stats.svg
+          options: 'show_icons=true&theme=transparent'
+
+      - name: Commit e Push
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@://github.com"
+          git add github-readme-stats.svg
+          git commit -m "Update GitHub Readme Stats" || echo "Sem mudanças"
+          git push
