@@ -26,4 +26,4 @@ jobs:
           git config --global user.email "github-actions[bot]@://github.com"
           git add github-readme-stats.svg github-readme-top-langs.svg
           git commit -m "Update GitHub Stats and Top Langs" || echo "Sem mudanças"
-          git push
+          git push origin main
