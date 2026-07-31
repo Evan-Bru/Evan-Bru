@@ -1,4 +1,4 @@
-name: GitHub Readme Stats
+name: Perfil Status
 
 on:
   schedule:
@@ -9,21 +9,21 @@ permissions:
   contents: write
 
 jobs:
-  stats:
+  build-stats:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repo
         uses: actions/checkout@v4
 
-      - name: Fetch Stats and Langs Cards
+      - name: Baixar Imagens de Status
         run: |
-          curl -o github-readme-stats.svg "https://vercel.app{{ github.repository_owner }}&show_icons=true&theme=transparent"
-          curl -o github-readme-top-langs.svg "https://vercel.app{{ github.repository_owner }}&layout=compact&theme=transparent"
+          curl -o github-readme-stats.svg "https://vercel.app"
+          curl -o github-readme-top-langs.svg "https://vercel.app"
 
-      - name: Commit e Push
+      - name: Salvar no Repositorio
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@://github.com"
           git add github-readme-stats.svg github-readme-top-langs.svg
-          git commit -m "Update GitHub Stats and Top Langs" || echo "Sem mudanças"
+          git commit -m "Update Stats" || echo "Sem mudancas"
           git push origin main
